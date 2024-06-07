@@ -17,7 +17,7 @@ const Home = () => {
                         <div className={`${styles.todoCheckbox} ${styles.checked}`} />
                         <div className={styles.inputContainer}>
                             <form onSubmit={addStaticTodo}>
-                                <input value = {input} onChange={handleChange} id={styles.inputField} type="text" placeholder='Create a new todo...' />
+                                <input value = {input} onChange={handleChange} id={styles.inputField} type="text" placeholder='Create a new todo....' />
                             </form>
                         </div>
                         <div className={styles.iconContainer}>
