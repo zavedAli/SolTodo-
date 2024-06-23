@@ -1,0 +1,29 @@
+/* styles/Profile.module.css */
+.profileContainer {
+  position: fixed;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--secondary-color);
+  padding: 1rem;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.name {
+  margin-top: 0.5rem;
+  color: var(--gray-color);
+  font-size: var(--fs-lg);
+  text-align: center;
+}
